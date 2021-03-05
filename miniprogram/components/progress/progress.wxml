@@ -1,0 +1,5 @@
+<!--components/progress/progress.wxml-->
+<view class="progress-box">
+  <text class="title">{{progressdata.title}}</text>
+  <progress percent="{{progressdata.progress}}" border-radius="1" stroke-width="6"/>
+</view>

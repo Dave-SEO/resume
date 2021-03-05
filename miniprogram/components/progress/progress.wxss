@@ -1,0 +1,5 @@
+/* components/progress/progress.wxss */
+.progress-box .title{
+  display: block;
+  margin: 20rpx 0;
+}

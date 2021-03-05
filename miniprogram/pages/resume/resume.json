@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "my-header": "/components/header/header",
+    "my-basicInformation": "/components/basicInformation/basicInformation",
+    "my-progress": "/components/progress/progress"
+  }
+}

@@ -1,0 +1,7 @@
+<!--components/header.wxml-->
+<view class="header">
+    <view class="square">
+      <text class="number" catchtap="">{{number}}</text>
+    </view>
+    <text>{{title}}</text>
+</view>

@@ -1,0 +1,114 @@
+/* pages/resume/resume.wxss */
+page{
+  min-height: 100vh;
+}
+.resume{
+  min-height: 100vh;
+}
+.content{
+  padding: 0 30rpx;
+}
+.swiper{
+  min-height: 100vh;
+}
+.scroll-view{
+  height: 100vh;
+}
+.paging{
+  text-align: center;
+  color: #333333;
+  padding: 30rpx 0;
+}
+.sclool{
+  display: flex;
+  align-items: center;
+  font-size: 35rpx;
+  margin-top: 20rpx;
+}
+.zhuanye{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 30rpx;
+  margin-top:15rpx;
+}
+.icon{
+  color: #1296db;
+}
+.nianyue{
+  font-size: 50rpx;
+  vertical-align: sub;
+}
+.xueke{
+  vertical-align: middle;
+}
+.gongzuojingli{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10rpx;
+}
+.gongzuojingli .iconfont{
+  color: #1296db;
+  margin-right: 10rpx;
+}
+.gongzuojingli .icon-nianyue-{
+  font-size: 50rpx;
+  vertical-align: sub;
+}
+.discript{
+  color: rgba(129, 129, 129, 1);
+}
+.gongsi{
+  margin-top: 20rpx;
+}
+.icon-gongsi{
+  font-size: 35rpx;
+}
+.discript{
+  padding-bottom: 30rpx;
+  padding-top: 10rpx;
+  font-size: 28rpx;
+  border-bottom: 1rpx dashed #333;
+}
+.marginTop{
+  display: block;
+  margin-top: 20rpx
+}
+.action{
+  margin-top: 20rpx;
+}
+.link{
+  display: block;
+  color: rgba(129, 129, 129, 1);
+}
+.erweima{
+  width: 200rpx;
+  height: 200rpx;
+  background-size: cover;
+}
+.borderno{
+  border: none
+}
+.icon-copy{
+  color: #1296db;
+  padding: 10rpx;
+}
+.priview{
+  width: 200rpx;
+  height: 200rpx;
+}
+.priview .img{
+  width: 100%;
+  height: 100%;
+}
+.icon-jiaoyubeijing{
+  font-size: 40rpx;
+}
+.sharebox{
+  margin: 0 !important;
+  text-align: left;
+  padding-left: 0 !important;
+  background: #f6f6f6 !important;
+  font-size: 30rpx;
+  color: rgba(129, 129, 129, 1) !important;
+}

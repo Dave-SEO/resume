@@ -1,0 +1,21 @@
+/* components/header.wxss */
+.header{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: #333;
+  border-bottom: 1rpx solid #333333;
+  font-size: 35rpx;
+  padding-bottom: 20rpx;
+  box-sizing: border-box;
+  margin-top: 60rpx;
+}
+.header .square{
+  margin-right: 26rpx;
+  background: #333;
+  min-width: 48rpx;
+  text-align: center;
+}
+.number{
+  color: white;
+}

@@ -1,0 +1,9 @@
+/* components/basicInformation/basicInformation.wxss */
+.basicInformation{
+  display: flex;
+  justify-content:space-between;
+  height: 100rpx;
+  border-bottom: 1rpx dashed #333;
+  line-height: 100rpx;
+  padding: 0 10rpx;
+}

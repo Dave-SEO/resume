@@ -1,0 +1,185 @@
+<!--pages/resume/resume.wxml-->
+<view class="resume">
+    <swiper class="swiper">
+    <swiper-item>
+      <scroll-view scroll-y="true" class="scroll-view" scroll-anchoring="false" scroll-anchoring="true">
+        <view class="content">
+          <my-header number="1" title="基本资料"/>
+          <block wx:for="{{baseinfo}}" wx:key="*this">
+            <my-basicInformation baseinfo="{{item}}" />
+          </block>
+          <view>
+            <my-header number="2" title="主要技能"/>
+            <block wx:for="{{progressinfo}}" wx:key="*this">
+              <my-progress  progressdata="{{item}}"/>
+            </block>
+          </view>
+
+          <view>
+            <my-header number="3" title="教育背景"/>
+            <view>
+              <view class="sclool">
+                <i class="iconfont icon-jiaoyubeijing icon"></i>
+                <text>山西经济管理干部学院</text>
+              </view>
+              <view class="zhuanye">
+                <view>
+                  <i class="iconfont icon-xueke icon xueke"></i>
+                  <text>移动通信技术（互联网方向）</text>
+                </view>
+                <view>
+                  <i class="iconfont icon-nianyue- icon nianyue"></i>
+                  <text>2013-2016</text>
+                </view>
+              </view>
+            </view>
+          </view>
+          <view class="paging">
+            <text>1/4</text>
+          </view>
+        </view>
+      </scroll-view>
+    </swiper-item>
+    <swiper-item>
+    <scroll-view scroll-y="true" class="scroll-view" scroll-anchoring="false" scroll-anchoring="true">
+            <view class="content">
+                <view>
+                  <my-header number="4" title="工作经历"/>
+                  <view>
+                    <view class="gongsi">
+                    <i class="iconfont icon-gongsi icon"></i><text>微医集团</text>
+                  </view>
+                  <view class="gongzuojingli">
+                    <view><i class="iconfont icon-zhiwei"></i><text>web前端开发</text></view>
+                    <view><i class="iconfont icon-nianyue-"></i><text>2018/5-2020/11</text></view>
+                  </view>
+                  <view class="discript">
+                    负责云会议平台的开发，与版本迭代;负责网站页面在各主流浏览器、mac、Windows系统中的兼容性调整，解决产品中存在的技术问题及定期做版本升级
+                  </view>
+                  </view>
+
+                  <view>
+                    <view class="gongsi">
+                    <i class="iconfont icon-gongsi icon"></i><text>杭州祖玛科技</text>
+                  </view>
+                  <view class="gongzuojingli">
+                    <view><i class="iconfont icon-zhiwei"></i><text>web前端开发</text></view>
+                    <view><i class="iconfont icon-nianyue-"></i><text>2016/6-2018/4</text></view>
+                  </view>
+                  <view class="discript borderno">
+                    负责数据可视化的前后端代码逻辑编写与业务实现（echarts+node.js）;负责铃音产品的研发;负责前端页面的制作，与功能实现;负责网站页面在各主流浏览器中的兼容性调整，解决产品中存在的技术问题及定期做版本升级
+                  </view>
+                  </view>
+                </view>
+                <view class="paging">
+                  <text>2/4</text>
+                </view>
+              </view>
+            </scroll-view>
+      </swiper-item>
+
+      <swiper-item>
+        <scroll-view scroll-y="true" class="scroll-view" scroll-anchoring="false" scroll-anchoring="true">
+          <view class="content">
+            <my-header number="5" title="项目经验"/>
+            <view>
+              <text class="marginTop">1.云会议平台</text>
+              <view class="discript borderno">负责前端页面制作，与功能实现;负责与native对接通信;负责日常开发版本迭代;项目基于vue + elementui 实现</view>
+            </view>
+
+            <view>
+              <text class="marginTop">2.伊莎美尔</text>
+              <view class="discript">
+                负责商城首页、生物平皱、畅销排行、明星证言、皮肤测试等的网页排版以及网页的兼容问题，页面效果jQuery插件的使用；网站页面在各主流浏览器中的兼容性调整,常用Javascript效果处理；解决产品中存在的技术问题及定期做版本升级；负责与设计人员和程序人员的沟通；规范前端代码，对页面进行优化，与设计师和后台程序配合，优质高效的完成工作；
+              </view>
+            </view>
+
+            <view>
+              <text class="marginTop">3.北京车网互联</text>
+              <view class="discript">
+                负责页面的布局以及动效的制作和套后台；负责网站页面在各主流浏览器中的兼容性调整；负责与设计人员的沟通；负责规范前端代码，对页面进行优化，与设计师配合，优质高效的完成工作；
+              </view>
+            </view>
+
+            <view>
+              <text class="marginTop">4.翼铃</text>
+              <view class="discript">
+                负责页面逻辑的编写与数据渲染
+              </view>
+            </view>
+
+            <view>
+              <text class="marginTop">5.数据可视化项目</text>
+              <view class="discript borderno">
+                负责前端的逻辑与运用echarts对数据可视化展示;负责nodejs后端的逻辑编写以及业务的实现
+              </view>
+            </view>
+            <view class="paging">
+              <text>3/4</text>
+            </view>
+          </view>
+        </scroll-view>
+      </swiper-item>
+     
+      <swiper-item>
+        <scroll-view scroll-y="true" class="scroll-view" scroll-anchoring="false" scroll-anchoring="true">
+          <view class="content">
+            <my-header number="6" title="个人博客"/>
+            <view>
+              <view class="action">
+                访问方式1：
+               <view class="link" bindtap="copy">
+                <text>https://myzhangning.top/blog</text>
+                <i class="iconfont icon-fuzhi icon-copy"></i>
+               </view>
+              </view>
+              <view class="action">
+                访问方式2：
+                <view class="link" bindtap="copy2">
+                  <text>https://dave-seo-gitee.gitee.io/blog  (国内)</text>
+                  <i class="iconfont icon-fuzhi icon-copy"></i>
+                </view>
+              </view>
+
+              <view class="action">
+                访问方式3：
+                <view class="link" bindtap="priview" class="priview">
+                  <image  class="img" src="cloud://test-3g5bmq3f53552b0e.7465-test-3g5bmq3f53552b0e-1304852877/erweima/erweima.png" mode="aspectFill"></image>
+                </view>
+              </view>
+            </view>
+
+            <view>
+              <my-header number="7" title="自我评价"/>
+              <view class="discript borderno">
+                <view>1. 本人性格开朗，勤奋好学，抗压能力强，能够快速的融入团队</view>
+                <view>2. 对最新前端技术有着强烈的求知欲</view>
+                <view>3. 能够高效的处理浏览器的兼容问题，在与团队合作时能够快速高质量的完成效果图</view>
+              </view>
+            </view>
+
+            <view>
+              <my-header number="8" title="分享"/>
+              <view>
+                <button type="default" class="sharebox" open-type="share" hover-class="none">
+                  简历分享
+                  <i class="iconfont icon-fenxiang icon-copy"></i>
+                </button>
+              </view>
+            </view>
+
+            <view>
+              <my-header number="9" title="小程序码"/>
+              <button type="default" class="sharebox" hover-class="none" bindtap="qrcode">
+                生成小程序码
+                <i class="iconfont icon-ico icon-copy"></i>
+              </button>
+            </view>
+            <view class="paging">
+              <text>4/4</text>
+            </view>
+          </view>
+        </scroll-view>
+      </swiper-item>
+    </swiper>
+</view>

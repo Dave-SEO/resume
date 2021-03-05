@@ -1,0 +1,5 @@
+<!--components/basicInformation/basicInformation.wxml-->
+<view class="basicInformation">
+    <view>{{baseinfo.key1}}：<text>{{baseinfo.value1}}</text></view>
+    <view wx:if="{{baseinfo.key2}}">{{baseinfo.key2}}：<text>{{baseinfo.value2}}</text></view>
+</view>
