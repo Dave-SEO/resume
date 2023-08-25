@@ -16,13 +16,16 @@
           </view>
 
           <view>
-            <my-header number="3" title="教育背景"/>
+            <my-header number="3" title="行业经历"/>
             <view>
               <view class="sclool">
                 <i class="iconfont icon-jiaoyubeijing icon"></i>
-                <text>山西经济管理干部学院</text>
+                <text>杭州互联网公司</text>
               </view>
-              <view class="zhuanye">
+               <view class="discript">
+                    工作职责：负责团队成员管理，推动前端基础建设，优化项目，带领团队高效完成项目研发，参与前端页面开发和维护及后端业务代码实现(nodejs)，与产品经理、设计师、后端工程师紧密工作在一起，负责公司各产品界面技术优化和网站性能优化
+               </view>
+              <!-- <view class="zhuanye">
                 <view>
                   <i class="iconfont icon-xueke icon xueke"></i>
                   <text>移动通信技术（互联网方向）</text>
@@ -31,7 +34,7 @@
                   <i class="iconfont icon-nianyue- icon nianyue"></i>
                   <text>2013-2016</text>
                 </view>
-              </view>
+              </view> -->
             </view>
           </view>
           <view class="paging">
@@ -45,9 +48,22 @@
             <view class="content">
                 <view>
                   <my-header number="4" title="工作经历"/>
+                   <view>
+                    <view class="gongsi">
+                      <i class="iconfont icon-gongsi icon"></i><text>杭州鲸灵智能</text>
+                    </view>
+                    <view class="gongzuojingli">
+                      <view><i class="iconfont icon-zhiwei"></i><text>web前端开发</text></view>
+                      <view><i class="iconfont icon-nianyue-"></i><text>2020/11-2022.06</text></view>
+                    </view>
+                    <view class="discript">
+                      负责小程序开发，脚手架开发，nodejs对接前后端
+                    </view>
+                  </view>
+
                   <view>
                     <view class="gongsi">
-                    <i class="iconfont icon-gongsi icon"></i><text>微医集团</text>
+                    <i class="iconfont icon-gongsi icon"></i><text>杭州微医集团</text>
                   </view>
                   <view class="gongzuojingli">
                     <view><i class="iconfont icon-zhiwei"></i><text>web前端开发</text></view>
@@ -83,21 +99,29 @@
           <view class="content">
             <my-header number="5" title="项目经验"/>
             <view>
-              <text class="marginTop">1.云会议平台</text>
-              <view class="discript borderno">负责前端页面制作，与功能实现;负责与native对接通信;负责日常开发版本迭代;项目基于vue + elementui 实现</view>
-            </view>
-
-            <view>
-              <text class="marginTop">2.伊莎美尔</text>
-              <view class="discript">
-                负责商城首页、生物平皱、畅销排行、明星证言、皮肤测试等的网页排版以及网页的兼容问题，页面效果jQuery插件的使用；网站页面在各主流浏览器中的兼容性调整,常用Javascript效果处理；解决产品中存在的技术问题及定期做版本升级；负责与设计人员和程序人员的沟通；规范前端代码，对页面进行优化，与设计师和后台程序配合，优质高效的完成工作；
+              <text class="marginTop">1.微医云健康管理平台</text>
+              <view class="discript borderno">
+                负责项目基础建设搭建、脚手架搭建 
+                负责与产品经理、后端讨论业务流程、数据字段制定等规范 
+                负责前端页面制作，与功能实现 
+                项目基于vue + elementui 实现
               </view>
             </view>
 
             <view>
-              <text class="marginTop">3.北京车网互联</text>
+              <text class="marginTop">2.云会议平台</text>
               <view class="discript">
-                负责页面的布局以及动效的制作和套后台；负责网站页面在各主流浏览器中的兼容性调整；负责与设计人员的沟通；负责规范前端代码，对页面进行优化，与设计师配合，优质高效的完成工作；
+                负责前端页面制作，与功能实现 
+                负责与native对接通信 
+                负责日常开发版本迭代 
+                项目基于vue + elementui 实现 
+              </view>
+            </view>
+
+            <view>
+              <text class="marginTop">3.挂号网</text>
+              <view class="discript">
+                负责挂号网的日常版本迭代与维护升级
               </view>
             </view>
 
@@ -109,9 +133,25 @@
             </view>
 
             <view>
-              <text class="marginTop">5.数据可视化项目</text>
+              <text class="marginTop">5.微课堂</text>
+              <view class="discript">
+                负责与产品经理讨论项目的流程以及流程的优化；
+                负责网站页面在各主流浏览器中的兼容性调整；
+                负责与设计人员的沟通；
+                负责规范前端代码，对页面进行优化，与设计师配合，优质高效的完成工作；
+              </view>
+            </view>
+
+            <view>
+              <text class="marginTop">6.数据可视化项目</text>
               <view class="discript borderno">
                 负责前端的逻辑与运用echarts对数据可视化展示;负责nodejs后端的逻辑编写以及业务的实现
+              </view>
+            </view>
+             <view>
+              <text class="marginTop">7.蜂享家小程序</text>
+              <view class="discript borderno">
+                负责框架的选型，页面的划分，数据接口的对接
               </view>
             </view>
             <view class="paging">
@@ -129,24 +169,24 @@
               <view class="action">
                 访问方式1：
                <view class="link" bindtap="copy">
-                <text>https://myzhangning.top/blog</text>
+                <text>https://dave-seo.github.io/blog</text>
                 <i class="iconfont icon-fuzhi icon-copy"></i>
                </view>
               </view>
-              <view class="action">
+              <!-- <view class="action">
                 访问方式2：
                 <view class="link" bindtap="copy2">
                   <text>https://dave-seo-gitee.gitee.io/blog  (国内)</text>
                   <i class="iconfont icon-fuzhi icon-copy"></i>
                 </view>
-              </view>
+              </view> -->
 
-              <view class="action">
+              <!-- <view class="action">
                 访问方式3：
                 <view class="link" bindtap="priview" class="priview">
                   <image  class="img" src="cloud://test-3g5bmq3f53552b0e.7465-test-3g5bmq3f53552b0e-1304852877/erweima/erweima.png" mode="aspectFill"></image>
                 </view>
-              </view>
+              </view> -->
             </view>
 
             <view>
@@ -158,7 +198,7 @@
               </view>
             </view>
 
-            <view>
+            <!-- <view>
               <my-header number="8" title="分享"/>
               <view>
                 <button type="default" class="sharebox" open-type="share" hover-class="none">
@@ -166,9 +206,9 @@
                   <i class="iconfont icon-fenxiang icon-copy"></i>
                 </button>
               </view>
-            </view>
+            </view> -->
 
-            <view>
+            <!-- <view>
               <my-header number="9" title="小程序码"/>
               <button type="default" class="sharebox" hover-class="none" bindtap="qrcode">
                 生成小程序码
@@ -177,7 +217,7 @@
             </view>
             <view class="paging">
               <text>4/4</text>
-            </view>
+            </view> -->
           </view>
         </scroll-view>
       </swiper-item>

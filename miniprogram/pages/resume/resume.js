@@ -6,10 +6,10 @@ Page({
    */
   data: {
     baseinfo: [
-      {"key1": "姓名","value1": "张宁","key2": "电话","value2": "13003676863"},
-      {"key1": "性别","value1": "男","key2": "年龄","value2": "27"},
+      {"key1": "姓名","value1": "张宁","key2": "电话","value2": "18435144072"},
+      {"key1": "性别","value1": "男","key2": "年龄","value2": "30"},
       {"key1": "邮箱","value1": "1244533983@qq.com"},
-      {"key1": "工作年限","value1": "4","key2": "求职意向","value2": "web前端开发"}
+      {"key1": "工作年限","value1": "6","key2": "求职意向","value2": "web前端开发"}
     ],
     progressinfo: [
       {"title": "HTML/CSS/JavaScript", "progress": 80},
